@@ -3,6 +3,10 @@
     src: url('fonts/OpenSans.ttf');
 }
 @font-face{
+	font-family: OpenSansBold;
+    src: url('fonts/OpenSansBold.ttf');
+}
+@font-face{
 	font-family: Roboto;
     src: url('fonts/Roboto.ttf');
 }
@@ -197,6 +201,93 @@
     color: white;
 }
 
+/*бэтвины*/
+.glasses-quiz-widget-body_between-img{
+	position: absolute;
+	top: 17.48%;
+	transform: translateX(-50%);
+	left: 50%;
+	width: 131.52px;
+	height: 131.52px;
+	background: #F7F8F9;
+	box-shadow: -9px -9px 16px #FFFFFF, 9px 9px 16px rgba(163, 177, 198, 0.325148);
+	border-radius: 50%;
+}
+.glasses-quiz-widget-body_between-img > div{
+	height: inherit;
+	width: inherit;
+	position: relative;
+}
+.glasses-quiz-widget-body_between-img img{
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	position: absolute;
+}
+.glasses-quiz-widget-body_between h2{
+	position: absolute;
+	top: 47.55%;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	width: 100%;
+
+	font-family: OpenSansBold;
+	font-size: 24px;
+	line-height: 30px;
+	color: #0196FF;
+}
+
+/*11*/
+.glasses-quiz-widget-11_logo{
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 38px;
+    margin: auto;
+    top: calc((100% - 8px - 38px) / 2);
+    left: 6.6%;
+    background: url(img/logo.svg);
+}
+.glasses-quiz-widget-body_11{
+	width: inherit;
+	height: inherit;
+}
+.glasses-quiz-widget-body_11-img{
+	position: absolute;
+	top: 6.64%;
+	transform: translateX(-50%);
+	left: 50%;
+	width: 131.52px;
+	height: 131.52px;
+	background: #F7F8F9;
+	box-shadow: -9px -9px 16px #FFFFFF, 9px 9px 16px rgba(163, 177, 198, 0.325148);
+	border-radius: 50%;
+}
+.glasses-quiz-widget-body_11-img > div{
+	height: inherit;
+	width: inherit;
+	position: relative;
+}
+.glasses-quiz-widget-body_11-img img{
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	position: absolute;
+}
+.glasses-quiz-widget-body_11 h2{
+	font-family: OpenSansBold;
+	font-size: 20px;
+	line-height: 150%;
+	color: #2196F3;
+
+	position: absolute;
+	top: 35.31%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 83.73%;
+
+}
+
 /*объекты в бади*/
 .glasses-quiz-widget-body-question{
     display: block;
@@ -213,7 +304,7 @@
     .glasses-quiz-widget-body-question-buttons{
     margin-top: 32px;
 }
-        .glasses-quiz-widget-body-question-buttons-button{
+    .glasses-quiz-widget-body-question-buttons-button{
         display: block;
         width: 73%;
         margin: 0 auto 14px auto;
@@ -236,6 +327,246 @@
 		.glasses-quiz-widget-body-question-buttons_h120 .glasses-quiz-widget-body-question-buttons-button{
     		height: 120px;
 		}
+		.glasses-quiz-widget-body-question-buttons_32 .glasses-quiz-widget-body-question-buttons-button{
+    		height: 84px;
+			width: 78.4%;
+		}
+		.glasses-quiz-widget-body-question-buttons_41 .glasses-quiz-widget-body-question-buttons-button{
+    		height: 56px;
+			width: 84.8%;
+			margin-bottom: 10px;
+			position: relative;
+		}
+			.glasses-quiz-widget-body-question-buttons_41 .glasses-quiz-widget-body-question-buttons-button-content{
+				text-align: left;
+				margin-left: 6.2%;
+			}
+			.glasses-quiz-widget-body-question-buttons_41 span{
+				font-family: OpenSansBold;
+				position: absolute;
+				top: 0; bottom: 0;
+				right: 13.11%;
+				color: #0F0F0F;
+			}
+		.glasses-quiz-widget-body-question-buttons_42 .glasses-quiz-widget-body-question-buttons-button{
+    		height: 84px;
+			width: 81.06%;
+			margin-bottom: 11px;
+		}
+		.glasses-quiz-widget-body-question-buttons_5s .glasses-quiz-widget-body-question-buttons-button{
+    		height: 89px;
+			width: 81.06%;
+			margin-bottom: 16px;
+		}
+			.glasses-quiz-widget-body-question-buttons_5s img{
+				position: absolute;
+				left: 9.21%;
+				top: 50%;
+				bottom: 50%;
+				transform: translateY(-50%);
+			}
+			.glasses-quiz-widget-body-question-buttons_5s span{
+				position: absolute;
+				left: 37.17%;
+				top: 50%;
+				text-align: left;
+				transform: translateY(-50%);
+				font-size: 16px;
+				line-height: 17px;
+			}
+			.glasses-quiz-widget-body-question-buttons_5s .glasses-quiz-widget-body-question-buttons-button_line{
+				background: #DEDEDE;
+				width: 1px;
+				height: 39.32%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				left: 30.92%;
+				position: absolute;
+			}
+			.glasses-quiz-widget-body-question-buttons_6m .glasses-quiz-widget-body-question-buttons-button{
+	    		height: 89px;
+				width: 83.73%;
+				margin-bottom: 13px;
+			}
+				.glasses-quiz-widget-body-question-buttons_6m img{
+					position: absolute;
+					left: 9.23%;
+					top: 50%;
+					bottom: 50%;
+					transform: translateY(-50%);
+				}
+				.glasses-quiz-widget-body-question-buttons_6m span{
+					position: absolute;
+					left: 37.57%;
+					top: 50%;
+					text-align: left;
+					transform: translateY(-50%);
+					font-size: 18px;
+					line-height: 17px;
+				}
+				.glasses-quiz-widget-body-question-buttons_6m .glasses-quiz-widget-body-question-buttons-button_line{
+					background: #DEDEDE;
+					width: 1px;
+					height: 39.32%;
+					top: 50%;
+					transform: translate(-50%, -50%);
+					left: 29.61%;
+					position: absolute;
+				}
+				.glasses-quiz-widget-body-question-buttons_6m .glasses-quiz-widget-body-question-buttons-button{
+		    		height: 89px;
+					width: 83.73%;
+					margin-bottom: 13px;
+				}
+					.glasses-quiz-widget-body-question-buttons_6m img{
+						position: absolute;
+						left: 9.23%;
+						top: 50%;
+						bottom: 50%;
+						transform: translateY(-50%);
+					}
+					.glasses-quiz-widget-body-question-buttons_6m span{
+						position: absolute;
+						left: 37.57%;
+						top: 50%;
+						text-align: left;
+						transform: translateY(-50%);
+						font-size: 18px;
+						line-height: 17px;
+					}
+					.glasses-quiz-widget-body-question-buttons_6m .glasses-quiz-widget-body-question-buttons-button_line{
+						background: #DEDEDE;
+						width: 1px;
+						height: 39.32%;
+						top: 50%;
+						transform: translate(-50%, -50%);
+						left: 29.61%;
+						position: absolute;
+					}
+			.glasses-quiz-widget-body-question-buttons_6w .glasses-quiz-widget-body-question-buttons-button{
+	    		height: 89px;
+				width: 83.73%;
+				margin-bottom: 13px;
+			}
+				.glasses-quiz-widget-body-question-buttons_6w img{
+					position: absolute;
+					left: 9.23%;
+					top: 50%;
+					bottom: 50%;
+					transform: translateY(-50%);
+				}
+				.glasses-quiz-widget-body-question-buttons_6w span{
+					position: absolute;
+					left: 37.57%;
+					top: 50%;
+					text-align: left;
+					transform: translateY(-50%);
+					font-size: 18px;
+					line-height: 17px;
+				}
+				.glasses-quiz-widget-body-question-buttons_6w .glasses-quiz-widget-body-question-buttons-button_line{
+					background: #DEDEDE;
+					width: 1px;
+					height: 39.32%;
+					top: 50%;
+					transform: translate(-50%, -50%);
+					left: 29.61%;
+					position: absolute;
+				}
+				.glasses-quiz-widget-body-question-buttons_6w .glasses-quiz-widget-body-question-buttons-button{
+		    		height: 89px;
+					width: 83.73%;
+					margin-bottom: 13px;
+				}
+					.glasses-quiz-widget-body-question-buttons_6w img{
+						position: absolute;
+						left: 7.64%;
+						top: 50%;
+						bottom: 50%;
+						transform: translateY(-50%);
+					}
+					.glasses-quiz-widget-body-question-buttons_6w span{
+						position: absolute;
+						left: 37.57%;
+						top: 50%;
+						text-align: left;
+						transform: translateY(-50%);
+						font-size: 18px;
+						line-height: 17px;
+					}
+					.glasses-quiz-widget-body-question-buttons_6w .glasses-quiz-widget-body-question-buttons-button_line{
+						background: #DEDEDE;
+						width: 1px;
+						height: 39.32%;
+						top: 50%;
+						transform: translate(-50%, -50%);
+						left: 29.61%;
+						position: absolute;
+					}
+					.glasses-quiz-widget-body-question-buttons_6b .glasses-quiz-widget-body-question-buttons-button{
+			    		height: 89px;
+						width: 83.73%;
+						margin-bottom: 13px;
+					}
+						.glasses-quiz-widget-body-question-buttons_6b img{
+							position: absolute;
+							left: 9.23%;
+							top: 50%;
+							bottom: 50%;
+							transform: translateY(-50%);
+						}
+						.glasses-quiz-widget-body-question-buttons_6b span{
+							position: absolute;
+							left: 37.57%;
+							top: 50%;
+							text-align: left;
+							transform: translateY(-50%);
+							font-size: 18px;
+							line-height: 17px;
+						}
+						.glasses-quiz-widget-body-question-buttons_6b .glasses-quiz-widget-body-question-buttons-button_line{
+							background: #DEDEDE;
+							width: 1px;
+							height: 39.32%;
+							top: 50%;
+							transform: translate(-50%, -50%);
+							left: 29.61%;
+							position: absolute;
+						}
+						.glasses-quiz-widget-body-question-buttons_6b .glasses-quiz-widget-body-question-buttons-button{
+				    		height: 89px;
+							width: 83.73%;
+							margin-bottom: 13px;
+						}
+							.glasses-quiz-widget-body-question-buttons_6b img{
+								position: absolute;
+								left: 7%;
+								top: 50%;
+								bottom: 50%;
+								transform: translateY(-50%);
+							}
+							.glasses-quiz-widget-body-question-buttons_6b span{
+								position: absolute;
+								left: 42.67%;
+								top: 50%;
+								text-align: left;
+								transform: translateY(-50%);
+								font-size: 18px;
+								line-height: 17px;
+							}
+							.glasses-quiz-widget-body-question-buttons_6b .glasses-quiz-widget-body-question-buttons-button_line{
+								background: #DEDEDE;
+								width: 1px;
+								height: 39.32%;
+								top: 50%;
+								transform: translate(-50%, -50%);
+								left: 37.57%;
+								position: absolute;
+							}
+		.glasses-quiz-widget-body-question-buttons_7 .glasses-quiz-widget-body-question-buttons-button{
+    		height: 97px;
+			width: 83.73%;
+		}
 			.glasses-quiz-widget-body-question-buttons-button-content{
 				position: absolute;
 				width: 100%;
@@ -251,7 +582,7 @@
     bottom: 4.2%;
     left: 0;
     right: 0;
-	font-weight: 700;
+	font-family: OpenSansBold;
     font-size: 16px;
     line-height: 22px;
     text-decoration: underline;
