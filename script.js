@@ -17,7 +17,7 @@ function glassesQuizWidget_backPage(){
 
 function glassesQuizWidget_SetRes(key, val){
 	glassesQuizWidget_answers[key] = val;
-	console.log(glassesQuizWidget_answers);
+	//console.log(glassesQuizWidget_answers);
 }
 
 function glassesQuizWidgetPage(number){
