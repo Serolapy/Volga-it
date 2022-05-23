@@ -11,7 +11,7 @@
     src: url('fonts/Roboto.ttf');
 }
 #glasses-quiz-widget{
-    position: absolute;
+    position: fixed;
     display: block;
     width: var(--glassesQuizWidget_width);
     height: var(--glassesQuizWidget_height);
