@@ -1,3 +1,4 @@
+const glassesQuizWidget_imgUrl = 'img/';
 ;(function() {
 	/*
 		Создание наполнение виджета
@@ -32,13 +33,13 @@ function glassesQuizWidgetPage(number){
 				<div className="glasses-quiz-widget-header_mobile glasses-quiz-widget-header">
 					<a className="glasses-quiz-widget-mobile_logo" href="#" />
 					<a className="glasses-quiz-widget-mobile_arrowRight" href="#" onClick={function(){glassesQuizWidgetPage(1)}}>
-						<img src="img/arrow_right.svg" alt="Next Page" />
+						<img src={glassesQuizWidget_imgUrl + "arrow_right.svg"} alt="Next Page" />
 					</a>
 				</div>
 				<div id="glasses-quiz-widget-body">
 					<div className="glasses-quiz-widget-body-content_mobile">
 						<img
-							src="img/mobile.svg"
+							src={glassesQuizWidget_imgUrl + "mobile.svg"}
 							alt="OPTIMAX DEV"
 							className="glasses-quiz-widget-body-content_mobile-img"
 						/>
@@ -63,7 +64,7 @@ function glassesQuizWidgetPage(number){
 				<div className="glasses-quiz-widget-header">
 					<a className="glasses-quiz-widget-11_logo" href="#" />
 					<a className="glasses-quiz-widget-header-x" href="#"  onClick={function(){glassesQuizWidgetPage(0)}}>
-						<img src="img/x.svg" alt="Start Page" />
+						<img src={glassesQuizWidget_imgUrl + "x.svg"} alt="Start Page" />
 					</a>
 					<div className="glasses-quiz-widget-header-statusBar">
 						<span
@@ -76,7 +77,7 @@ function glassesQuizWidgetPage(number){
 					<div className="glasses-quiz-widget-body_11">
 						<div className="glasses-quiz-widget-body_11-img">
 							<div>
-								<img src="img/present.png" alt="Present" />
+								<img src={glassesQuizWidget_imgUrl + "present.png"} alt="Present" />
 							</div>
 						</div>
 						<h2>We've found some awesome frames for you!</h2>
@@ -152,7 +153,7 @@ function glassesQuizWidgetPage(number){
 							<div className="glasses-quiz-widget-body-question-buttons-button" onClick={function(){glassesQuizWidget_SetRes('gender', 5); glassesQuizWidgetPage('2w');}}>
 								<div className="glasses-quiz-widget-body-question-buttons-button-content">
 									<img
-										src="img/Women.svg"
+										src={glassesQuizWidget_imgUrl + "Women.svg"}
 										alt="Women's Styles"
 										style={{ marginBottom: 16 }}
 									/>
@@ -163,7 +164,7 @@ function glassesQuizWidgetPage(number){
 							<div className="glasses-quiz-widget-body-question-buttons-button" onClick={function(){glassesQuizWidget_SetRes('gender', 4); glassesQuizWidgetPage('2m');} }>
 								<div className="glasses-quiz-widget-body-question-buttons-button-content">
 									<img
-										src="img/Men.svg"
+										src={glassesQuizWidget_imgUrl + "Men.svg"}
 										alt="Men's Styles"
 										style={{ marginBottom: 13 }}
 									/>
@@ -194,14 +195,14 @@ function glassesQuizWidgetPage(number){
 						<div className="glasses-quiz-widget-body-question-buttons glasses-quiz-widget-body-question-buttons_h138">
 							<div className="glasses-quiz-widget-body-question-buttons-button" onClick={function(){glassesQuizWidget_SetRes('eyewear_type', 210); glassesQuizWidgetPage('2b');}}>
 								<div className="glasses-quiz-widget-body-question-buttons-button-content">
-									<img src="img/2m1.svg" alt="Eyeglasses" />
+									<img src={glassesQuizWidget_imgUrl + "2m1.svg"} alt="Eyeglasses" />
 									<br />
 									Eyeglasses
 								</div>
 							</div>
 							<div className="glasses-quiz-widget-body-question-buttons-button" onClick={function(){glassesQuizWidget_SetRes('eyewear_type', 211); glassesQuizWidgetPage('2b');}}>
 								<div className="glasses-quiz-widget-body-question-buttons-button-content">
-									<img src="img/2m2.svg" alt="Sunglasses" />
+									<img src={glassesQuizWidget_imgUrl + "2m2.svg"} alt="Sunglasses" />
 									<br />
 									Sunglasses
 								</div>
@@ -228,14 +229,14 @@ function glassesQuizWidgetPage(number){
 						<div className="glasses-quiz-widget-body-question-buttons glasses-quiz-widget-body-question-buttons_h138">
 							<div className="glasses-quiz-widget-body-question-buttons-button" onClick={function(){glassesQuizWidget_SetRes('eyewear_type', 210); glassesQuizWidgetPage('2b');}}>
 								<div className="glasses-quiz-widget-body-question-buttons-button-content">
-									<img src="img/2w1.svg" alt="Eyeglasses" />
+									<img src={glassesQuizWidget_imgUrl + "2w1.svg"} alt="Eyeglasses" />
 									<br />
 									Eyeglasses
 								</div>
 							</div>
 							<div className="glasses-quiz-widget-body-question-buttons-button" onClick={function(){glassesQuizWidget_SetRes('eyewear_type', 211); glassesQuizWidgetPage('2b');}}>
 								<div className="glasses-quiz-widget-body-question-buttons-button-content">
-									<img src="img/2w2.svg" alt="Sunglasses" />
+									<img src={glassesQuizWidget_imgUrl + "2w2.svg"} alt="Sunglasses" />
 									<br />
 									Sunglasses
 								</div>
@@ -256,7 +257,7 @@ function glassesQuizWidgetPage(number){
 					<div className="glasses-quiz-widget-body_between">
 						<div className="glasses-quiz-widget-body_between-img">
 							<div>
-								<img src="img/like.svg" alt="Like" />
+								<img src={glassesQuizWidget_imgUrl + "like.svg"} alt="Like" />
 							</div>
 						</div>
 						<h2>Let's get to know you!</h2>
@@ -342,7 +343,7 @@ function glassesQuizWidgetPage(number){
 							frame size?
 						</div>
 						<img
-							src="img/4.1.svg"
+							src={glassesQuizWidget_imgUrl + "4.1.svg"}
 							alt="Frame size"
 							style={{ height: "20.63%", margin: "38px auto 0 auto" }}
 						/>
@@ -381,7 +382,7 @@ function glassesQuizWidgetPage(number){
 					<div className="glasses-quiz-widget-body_between">
 						<div className="glasses-quiz-widget-body_between-img">
 							<div>
-								<img src="img/like.svg" alt="Like" />
+								<img src={glassesQuizWidget_imgUrl + "like.svg"} alt="Like" />
 							</div>
 						</div>
 						<h2>No worries, we’ve got you!</h2>
@@ -476,18 +477,18 @@ function glassesQuizWidgetPage(number){
 						<div className="glasses-quiz-widget-body-question-buttons glasses-quiz-widget-body-question-buttons_5s">
 							<div className="glasses-quiz-widget-body-question-buttons-button" onClick={function(){glassesQuizWidget_SetRes('blue_light', ''); glassesQuizWidget_SetRes('shade', 'dark'); glassesQuizWidgetPage(6);}}>
 								<div className="glasses-quiz-widget-body-question-buttons-button_line" />
-								<img src="img/5s1.svg" alt="Dark Shade" />
+								<img src={glassesQuizWidget_imgUrl + "5s1.svg"} alt="Dark Shade" />
 								<span>Dark Shade</span>
 							</div>
 							<div className="glasses-quiz-widget-body-question-buttons-button" onClick={function(){glassesQuizWidget_SetRes('blue_light', ''); glassesQuizWidget_SetRes('shade', 'light'); glassesQuizWidgetPage(6);}}>
 								<div className="glasses-quiz-widget-body-question-buttons-button_line" />
-								<img src="img/5s2.svg" alt="Light Shade" />
+								<img src={glassesQuizWidget_imgUrl + "5s2.svg"} alt="Light Shade" />
 								<span>Light Shade</span>
 							</div>
 							<div className="glasses-quiz-widget-body-question-buttons-button" onClick={function(){glassesQuizWidget_SetRes('blue_light', ''); glassesQuizWidget_SetRes('shade', 'transition'); glassesQuizWidgetPage(6);}}>
 								<div className="glasses-quiz-widget-body-question-buttons-button_line" />
 								<img
-									src="img/5s3.svg"
+									src={glassesQuizWidget_imgUrl + "5s3.svg"}
 									alt="Transitioning Shade"
 									style={{ left: "7.9%" }}
 								/>
@@ -514,17 +515,17 @@ function glassesQuizWidgetPage(number){
 							<div className="glasses-quiz-widget-body-question-buttons glasses-quiz-widget-body-question-buttons_6m">
 								<div className="glasses-quiz-widget-body-question-buttons-button" onClick={function(){glassesQuizWidget_SetRes('face_shape', 'long'); glassesQuizWidgetPage(7);}}>
 									<div className="glasses-quiz-widget-body-question-buttons-button_line" />
-									<img src="img/6m1.svg" alt="I have a long face" />
+									<img src={glassesQuizWidget_imgUrl + "6m1.svg"} alt="I have a long face" />
 									<span>I have a long face</span>
 								</div>
 								<div className="glasses-quiz-widget-body-question-buttons-button" onClick={function(){glassesQuizWidget_SetRes('face_shape', 'round'); glassesQuizWidgetPage(7);}}>
 									<div className="glasses-quiz-widget-body-question-buttons-button_line" />
-									<img src="img/6m2.svg" alt="I have a round face" />
+									<img src={glassesQuizWidget_imgUrl + "6m2.svg"} alt="I have a round face" />
 									<span>I have a round face</span>
 								</div>
 								<div className="glasses-quiz-widget-body-question-buttons-button" onClick={function(){glassesQuizWidget_SetRes('face_shape', 'between'); glassesQuizWidgetPage(7);}}>
 									<div className="glasses-quiz-widget-body-question-buttons-button_line" />
-									<img src="img/6m3.svg" alt="In between" />
+									<img src={glassesQuizWidget_imgUrl + "6m3.svg"} alt="In between" />
 									<span>In between</span>
 								</div>
 							</div>
@@ -551,17 +552,17 @@ function glassesQuizWidgetPage(number){
 							<div className="glasses-quiz-widget-body-question-buttons glasses-quiz-widget-body-question-buttons_6w">
 								<div className="glasses-quiz-widget-body-question-buttons-button" onClick={function(){glassesQuizWidget_SetRes('face_shape', 'long'); glassesQuizWidgetPage(7);}}>
 									<div className="glasses-quiz-widget-body-question-buttons-button_line" />
-									<img src="img/6w1.svg" alt="I have a long face" />
+									<img src={glassesQuizWidget_imgUrl + "6w1.svg"} alt="I have a long face" />
 									<span>I have a long face</span>
 								</div>
 								<div className="glasses-quiz-widget-body-question-buttons-button" onClick={function(){glassesQuizWidget_SetRes('face_shape', 'round'); glassesQuizWidgetPage(7);}}>
 									<div className="glasses-quiz-widget-body-question-buttons-button_line" />
-									<img src="img/6w2.svg" alt="I have a round face" />
+									<img src={glassesQuizWidget_imgUrl + "6w2.svg"} alt="I have a round face" />
 									<span>I have a round face</span>
 								</div>
 								<div className="glasses-quiz-widget-body-question-buttons-button" onClick={function(){glassesQuizWidget_SetRes('face_shape', 'between'); glassesQuizWidgetPage(7);}}>
 									<div className="glasses-quiz-widget-body-question-buttons-button_line" />
-									<img src="img/6w3.svg" alt="In between" />
+									<img src={glassesQuizWidget_imgUrl + "6w3.svg"} alt="In between" />
 									<span>In between</span>
 								</div>
 							</div>
@@ -586,17 +587,17 @@ function glassesQuizWidgetPage(number){
 							<div className="glasses-quiz-widget-body-question-buttons glasses-quiz-widget-body-question-buttons_6b">
 								<div className="glasses-quiz-widget-body-question-buttons-button" onClick={function(){glassesQuizWidget_SetRes('face_shape', 'long'); glassesQuizWidgetPage(7);}}>
 									<div className="glasses-quiz-widget-body-question-buttons-button_line" />
-									<img src="img/6b1.svg" alt="I have a long face" />
+									<img src={glassesQuizWidget_imgUrl + "6b1.svg"} alt="I have a long face" />
 									<span>I have a long face</span>
 								</div>
 								<div className="glasses-quiz-widget-body-question-buttons-button" onClick={function(){glassesQuizWidget_SetRes('face_shape', 'round'); glassesQuizWidgetPage(7);}}>
 									<div className="glasses-quiz-widget-body-question-buttons-button_line" />
-									<img src="img/6b2.svg" alt="I have a round face" />
+									<img src={glassesQuizWidget_imgUrl + "6b2.svg"} alt="I have a round face" />
 									<span>I have a round face</span>
 								</div>
 								<div className="glasses-quiz-widget-body-question-buttons-button" onClick={function(){glassesQuizWidget_SetRes('face_shape', 'between'); glassesQuizWidgetPage(7);}}>
 									<div className="glasses-quiz-widget-body-question-buttons-button_line" />
-									<img src="img/6b3.svg" alt="In between" />
+									<img src={glassesQuizWidget_imgUrl + "6b3.svg"} alt="In between" />
 									<span>In between</span>
 								</div>
 							</div>
@@ -710,55 +711,55 @@ function glassesQuizWidgetPage(number){
 					<div className="glasses-quiz-widget-body_10-box slide_8">
 						<div className="glasses-quiz-widget-body_10-tr">
 							<div className="glasses-quiz-widget-body_10-td" data-value="rectangle">
-								<img src="img/8/rectangle.svg" />
+								<img src={glassesQuizWidget_imgUrl + "8/rectangle.svg"} />
 								<span>Rectangle</span>
 							</div>
 							<div className="glasses-quiz-widget-body_10-td" data-value="browline">
-								<img src="img/8/browline.svg" />
+								<img src={glassesQuizWidget_imgUrl + "8/browline.svg"} />
 								<span>Browline</span>
 							</div>
 							<div className="glasses-quiz-widget-body_10-td" data-value="aviator">
-								<img src="img/8/aviator.svg" />
+								<img src={glassesQuizWidget_imgUrl + "8/aviator.svg"} />
 								<span>Aviator</span>
 							</div>
 							<div className="glasses-quiz-widget-body_10-td" data-value="geometric">
-								<img src="img/8/geometric.svg" />
+								<img src={glassesQuizWidget_imgUrl + "8/geometric.svg"} />
 								<span>Geometric</span>
 							</div>
 						</div>
 						<div className="glasses-quiz-widget-body_10-tr">
 							<div className="glasses-quiz-widget-body_10-td" data-value="wayframe">
-								<img src="img/8/wayframe.svg" />
+								<img src={glassesQuizWidget_imgUrl + "8/wayframe.svg"} />
 								<span>Wayframe</span>
 							</div>
 							<div className="glasses-quiz-widget-body_10-td" data-value="round">
-								<img src="img/8/round.svg" />
+								<img src={glassesQuizWidget_imgUrl + "8/round.svg"} />
 								<span>Round</span>
 							</div>
 							<div className="glasses-quiz-widget-body_10-td" data-value="oval">
-								<img src="img/8/oval.svg" />
+								<img src={glassesQuizWidget_imgUrl + "8/oval.svg"} />
 								<span>Oval</span>
 							</div>
 							<div className="glasses-quiz-widget-body_10-td" data-value="oversized">
-								<img src="img/8/oversized.svg" />
+								<img src={glassesQuizWidget_imgUrl + "8/oversized.svg"} />
 								<span>Oversized</span>
 							</div>
 						</div>
 						<div className="glasses-quiz-widget-body_10-tr">
 							<div className="glasses-quiz-widget-body_10-td" data-value="cat_eye">
-								<img src="img/8/cateye.svg" />
+								<img src={glassesQuizWidget_imgUrl + "8/cateye.svg"} />
 								<span>Cat Eye</span>
 							</div>
 							<div className="glasses-quiz-widget-body_10-td" data-value="rimless">
-								<img src="img/8/rimless.svg" />
+								<img src={glassesQuizWidget_imgUrl + "8/rimless.svg"} />
 								<span>Rimless</span>
 							</div>
 							<div className="glasses-quiz-widget-body_10-td" data-value="square">
-								<img src="img/8/square.svg" />
+								<img src={glassesQuizWidget_imgUrl + "8/square.svg"} />
 								<span>Square</span>
 							</div>
 							<div className="glasses-quiz-widget-body_10-td" data-value="wrap">
-								<img src="img/8/wrap.svg" />
+								<img src={glassesQuizWidget_imgUrl + "8/wrap.svg"} />
 								<span>Wrap</span>
 							</div>
 						</div>
@@ -862,44 +863,44 @@ function glassesQuizWidgetPage(number){
 						<div className="glasses-quiz-widget-body_10-box">
 							<div className="glasses-quiz-widget-body_10-tr">
 								<div className="glasses-quiz-widget-body_10-td" data-value="ray_ban">
-									<img src="img/10/RayBan.svg" alt="Ray Ban" />
+									<img src={glassesQuizWidget_imgUrl + "10/RayBan.svg"} alt="Ray Ban" />
 								</div>
 								<div className="glasses-quiz-widget-body_10-td"  data-value="oakley">
-									<img src="img/10/Oakley.svg" alt="OAKLEY" />
+									<img src={glassesQuizWidget_imgUrl + "10/Oakley.svg"} alt="OAKLEY" />
 								</div>
 								<div className="glasses-quiz-widget-body_10-td"  data-value="gucci">
-									<img src="img/10/Gucci.svg" alt="Gucci" />
+									<img src={glassesQuizWidget_imgUrl + "10/Gucci.svg"} alt="Gucci" />
 								</div>
 								<div className="glasses-quiz-widget-body_10-td"  data-value="armani_exchange">
-									<img src="img/10/ArmaniExchange.svg" alt="Armani Exchange" />
+									<img src={glassesQuizWidget_imgUrl + "10/ArmaniExchange.svg"} alt="Armani Exchange" />
 								</div>
 							</div>
 							<div className="glasses-quiz-widget-body_10-tr">
 								<div className="glasses-quiz-widget-body_10-td"  data-value="hilary_duff">
-									<img src="img/10/HilaryDuff.svg" alt="Hilary Duff" />
+									<img src={glassesQuizWidget_imgUrl + "10/HilaryDuff.svg"} alt="Hilary Duff" />
 								</div>
 								<div className="glasses-quiz-widget-body_10-td"  data-value="prada">
-									<img src="img/10/Prada.svg" alt="Prada" />
+									<img src={glassesQuizWidget_imgUrl + "10/Prada.svg"} alt="Prada" />
 								</div>
 								<div className="glasses-quiz-widget-body_10-td"  data-value="versace">
-									<img src="img/10/Versace.svg" alt="Versace" />
+									<img src={glassesQuizWidget_imgUrl + "10/Versace.svg"} alt="Versace" />
 								</div>
 								<div className="glasses-quiz-widget-body_10-td"  data-value="vogue_eyewear">
-									<img src="img/10/VogueEyewear.svg" alt="Vogue Eyewear" />
+									<img src={glassesQuizWidget_imgUrl + "10/VogueEyewear.svg"} alt="Vogue Eyewear" />
 								</div>
 							</div>
 							<div className="glasses-quiz-widget-body_10-tr">
 								<div className="glasses-quiz-widget-body_10-td"  data-value="michael_kors">
-									<img src="img/10/MichaelKors.svg" alt="Michael Kors" />
+									<img src={glassesQuizWidget_imgUrl + "10/MichaelKors.svg"} alt="Michael Kors" />
 								</div>
 								<div className="glasses-quiz-widget-body_10-td"  data-value="coach">
-									<img src="img/10/Coach.svg" alt="Coach" />
+									<img src={glassesQuizWidget_imgUrl + "10/Coach.svg"} alt="Coach" />
 								</div>
 								<div className="glasses-quiz-widget-body_10-td"  data-value="tory_burch">
-									<img src="img/10/ToryBurch.svg" alt="Tory Burch" />
+									<img src={glassesQuizWidget_imgUrl + "10/ToryBurch.svg"} alt="Tory Burch" />
 								</div>
 								<div className="glasses-quiz-widget-body_10-td"  data-value="burberry">
-									<img src="img/10/Burberry.svg" alt="Burberry" />
+									<img src={glassesQuizWidget_imgUrl + "10/Burberry.svg"} alt="Burberry" />
 								</div>
 							</div>
 						</div>
@@ -934,13 +935,13 @@ function Header(props){
 	return (
 			<div className="glasses-quiz-widget-header_mobile glasses-quiz-widget-header">
 				<a className="glasses-quiz-widget-header-arrowLeft" href="#" onClick={function(){glassesQuizWidgetPage(glassesQuizWidget_backPage())}}>
-					<img src="img/arrow_left.svg" alt="Back Page" />
+					<img src={glassesQuizWidget_imgUrl + "arrow_left.svg"} alt="Back Page" />
 				</a>
 				<div className="glasses-quiz-widget-header-numPage">
 				{props.number}
 				</div>
 				<a className="glasses-quiz-widget-header-x" href="#" onClick={function(){glassesQuizWidgetPage(0)}}>
-					<img src="img/x.svg" alt="Start Page" />
+					<img src={glassesQuizWidget_imgUrl + "x.svg"} alt="Start Page" />
 				</a>
 				<div className="glasses-quiz-widget-header-statusBar">
 				<span className="glasses-quiz-widget-header-statusBar-action" style={{ left: props.statusBar}} />
